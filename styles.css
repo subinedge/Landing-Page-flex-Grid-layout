@@ -1,0 +1,300 @@
+body, html {
+  background: #fff;
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.app-container {
+  height: 100vh;
+  width: 100vw;
+  background: #fff5ef;
+}
+
+.app-container .navbar {
+  width: 100%;
+  height: 60px;
+  border-bottom: 1px solid #e1d8d3;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.app-container .navbar .navbar-brand {
+  margin-left: 1rem;
+}
+
+.app-container .navbar .nav-links-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  text-transform: uppercase;
+}
+
+.app-container .navbar .nav-links-container .nav-links {
+  text-decoration: none;
+  color: #333;
+  margin: 0 0.5rem;
+}
+
+.app-container .navbar .icons-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 1rem;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.app-container .content-container {
+  display: -ms-grid;
+  display: grid;
+  height: calc(100vh-61px);
+  -ms-grid-columns: 3fr 2fr;
+      grid-template-columns: 3fr 2fr;
+}
+
+.app-container .content-container .left-content {
+  display: -ms-grid;
+  display: grid;
+  place-content: center;
+  height: calc(100vh-61px);
+  border-right: 1px solid #e1d8d3;
+}
+
+.app-container .content-container .left-content img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 50%;
+  margin: auto;
+}
+
+.app-container .content-container .right-content {
+  height: calc(100vh-61px);
+  margin: auto;
+  text-align: center;
+  display: -ms-grid;
+  display: grid;
+}
+
+.app-container .content-container .right-content .title-container {
+  border-bottom: 1px solid #e1d8d3;
+  display: -ms-grid;
+  display: grid;
+  place-content: center;
+}
+
+.app-container .content-container .right-content .title-container .item-short-desc {
+  width: 80%;
+  margin: auto;
+  margin-top: 1rem;
+}
+
+.app-container .content-container .right-content .a4-tile-grid {
+  display: -ms-grid;
+  display: grid;
+  border-bottom: 1px solid #e1d8d3;
+      grid-template-areas: 't1 t2' 't3 t4';
+}
+
+.app-container .content-container .right-content .a4-tile-grid .tile1 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: t1;
+  place-content: center;
+  border-right: 1px solid #e1d8d3;
+  border-bottom: 1px solid #e1d8d3;
+}
+
+.app-container .content-container .right-content .a4-tile-grid .tile1 svg {
+  margin: auto;
+}
+
+.app-container .content-container .right-content .a4-tile-grid .tile1 p {
+  text-transform: uppercase;
+}
+
+.app-container .content-container .right-content .a4-tile-grid .tile1 .taste-title {
+  font-size: 14px;
+}
+
+.app-container .content-container .right-content .tile-2 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: t2;
+  place-content: center;
+  border-bottom: 1px solid #e1d8d3;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+}
+
+.app-container .content-container .right-content .tile-2 .roastbar {
+  width: 100px;
+  height: 10px;
+  display: -ms-grid;
+  display: grid;
+  margin: auto;
+  border: 1px solid black;
+  -ms-grid-columns: (1fr)[10];
+      grid-template-columns: repeat(10, 1fr);
+}
+
+.app-container .content-container .right-content .tile-2 .roastbar div {
+  border: 1px solid #fff;
+  width: 8px;
+  height: 8px;
+  margin: auto;
+}
+
+.app-container .content-container .right-content .tile-2 .roastbar__rate01 {
+  background: #000;
+}
+
+.app-container .content-container .right-content .tile-2 .roastbar__rate02 {
+  background: #000;
+}
+
+.app-container .content-container .right-content .tile-2 .roastbar__rate03 {
+  background: #000;
+}
+
+.app-container .content-container .right-content .tile-2 .roastbar__rate04 {
+  background: #000;
+}
+
+.app-container .content-container .right-content .tile-2 .roastbar__rate05 {
+  background: #000;
+}
+
+.app-container .content-container .right-content .tile-2 .roastbar__rate06 {
+  background: #000;
+}
+
+.app-container .content-container .right-content .tile-2 .roastbar__rate07 {
+  background: #000;
+}
+
+.app-container .content-container .right-content .tile-2 .roastbar__rate08 {
+  background: #e1d8d3;
+}
+
+.app-container .content-container .right-content .tile-2 .roastbar__rate09 {
+  background: #e1d8d3;
+}
+
+.app-container .content-container .right-content .tile-2 .roastbar__rate10 {
+  background: #e1d8d3;
+}
+
+.app-container .content-container .right-content .tile-2 p {
+  text-transform: uppercase;
+}
+
+.app-container .content-container .right-content .tile-2 h2 {
+  font-size: 14px;
+}
+
+.app-container .content-container .right-content .tile-3 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: t3;
+  border-right: 1px solid #e1d8d3;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+  -ms-grid-rows: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  place-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.app-container .content-container .right-content .tile-3 button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-weight: 900;
+  font-size: 18px;
+}
+
+.app-container .content-container .right-content .tile-3 button:active, .app-container .content-container .right-content .tile-3 button:focus {
+  outline: 0 transparent;
+  -webkit-box-shadow: 0 0 0 transparent;
+          box-shadow: 0 0 0 transparent;
+}
+
+.app-container .content-container .right-content .tile-3 .add-amount-display {
+  margin: auto;
+}
+
+.app-container .content-container .right-content .tile-3 svg {
+  margin: auto;
+}
+
+.app-container .content-container .right-content .tile-3 .pack-size-display {
+  text-align: center;
+  grid-column: -1/1;
+}
+
+.app-container .content-container .right-content .tile-4 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+  grid-area: t4;
+  place-content: center;
+}
+
+.app-container .content-container .right-content .btn-container {
+  display: -ms-grid;
+  display: grid;
+  border-bottom: 1px solid #e1d8d3;
+}
+
+.app-container .content-container .right-content .btn-container button {
+  text-transform: uppercase;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.app-container .content-container .right-content .btn-container .add-to-cart-btn {
+  margin-top: 1rem;
+  background: #000;
+  border: 0;
+  color: #fff5ef;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.app-container .content-container .right-content .btn-container .more-details-btn {
+  background: transparent;
+  border: 0;
+}
+/*# sourceMappingURL=styles.css.map */
